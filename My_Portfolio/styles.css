@@ -1,0 +1,572 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* **************************Navbar***************** */
+
+nav {
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-radius: 8px;
+    
+}
+
+nav .nav-links {
+    display: flex;
+}
+
+nav #Logo {
+    color: #ff007a;
+}
+
+nav #Logo:hover {
+    background-color: #1f1f1f;
+}
+
+nav a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #ff007a;
+    border-radius: 5px;
+}
+
+.nav_options.active {
+    background-color: #e60073;
+    border-radius: 5px;
+}
+
+nav .hamburger {
+    display: flex;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: xx-large;
+    margin-bottom: 10px;
+    transition: all 0.3s;
+}
+
+nav .hamburger:hover {
+    color: #e60073;
+    cursor: pointer;
+}
+
+@media (max-width: 960px) {
+    nav .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav .nav-links.active {
+        display: flex;
+        align-items: center;
+        padding-left: 40px
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    nav .hamburger {
+        display: flex;
+    }
+
+    #skills div ul{
+      margin-left: -40px;
+    }
+}
+
+section>h1 {
+    text-align: center;
+}
+
+.section {
+    margin: 30px 0;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    opacity: 1;
+}
+.section.zoom-out {
+    transform: scale(1.07);
+    opacity: 0.5;
+}
+
+
+
+/* *****************Home Section****************** */
+
+#home {
+    background-image: url('images/background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 34px;
+    margin-top: 30px;
+}
+
+.home-text {
+    flex: 1;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+.home-text span {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 45px;
+    letter-spacing: 1pt;
+}
+
+.home-text h3 {
+    letter-spacing: 1pt;
+}
+
+.home .description {
+    text-align: justify;
+}
+
+.action__btns {
+    display: flex;
+    gap: 5px;
+    margin-top: 40px;
+}
+
+.action__btns a button {
+    color: #333;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 1rem 2rem;
+    outline: none;
+    border: 2px solid #ff007a;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+    border: 2px solid #000000;
+}
+
+.hire__me {
+    background-color: #ff007a;
+    color: #ffffff;
+    
+}
+
+.hire__me  {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.hire__me:hover {
+    background-color: whitesmoke;
+    color: #333;
+}
+
+.action__btns a{
+    text-decoration: none;
+    color: #000000;
+
+}
+
+.action__btns a .resume:hover{
+    background-color: #ff007a;
+    border: 2px solid #ff007a;
+    color: #000000;
+}
+
+/* ****************************** About Section ********************* */
+
+#about>div {
+    background-color: #000000;
+    padding: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left-column {
+    margin-right: 30px;
+}
+.left-column h1 {
+    margin-top: 0;
+    color: #ff007a;
+}
+.left-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+.left-column ul li {
+    margin-bottom: 10px;
+    
+}
+.left-column ul li a{
+    text-decoration: none;
+    color: #939393;
+
+}
+
+.left-column ul li a:hover{
+    color: #ff007a;
+    cursor: pointer;
+}
+.left-column button {
+    padding: 10px 20px;
+    background-color: #ff007a;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 6px;
+    transition: transform 0.3s;
+}
+.left-column a button {
+    text-decoration: none;
+    color: #000000;
+}
+.left-column a button:hover {
+    background-color: #f22b8b;
+    transform: scale(1.04);
+}
+.right-column img {
+    max-width: 100%;
+    border-radius: 60%;
+    width: 650px;
+    height: 350px;
+    border: 1px solid rgb(0, 0, 0);
+    transition: transform 0.3s;
+}
+
+.right-column img:hover {
+ transform: scale(1.04);
+}
+
+
+/* ***************************** Skills Section ******************** */
+
+#skills>div {
+    background-color: #000000;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+#skills div ul{
+  margin-left: -40px;
+}
+
+.skills-list li {
+    list-style: none;
+    background-color: #333333;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.skills-list li:hover {
+    transform: scale(1.03);
+    background-color: #444444;
+}
+
+.skills-list li span {
+    color: #e60073;
+}
+
+/* ***************************** Projects Section ******************** */
+
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+#projects>div {
+    background-color: #000000;
+    padding: 40px;
+    border-radius: 5px;
+}
+.project-card {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    flex: 1;
+    max-width: 300px;
+}
+
+.project-card h3 {
+    color: #ff007a;
+}
+.project-card a{
+    
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-card a:hover{
+    color: #f22b8b;
+    text-decoration: none;
+}
+
+.project-card:hover {
+    transform: scale(1.1);
+    background-color: #444444;
+}
+
+/* ***************************Resume Section************************  */
+
+
+.resume-section {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.flex-container{
+    background-color: #000000;
+    padding-top: 12px;
+    padding: 45px;
+    border-radius: 5px;
+}
+
+.flex-item {
+    width: 100%;
+}
+
+.flex-container .box1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+
+.flex-item h3 {
+    font-size: 24px;
+    text-align: left;
+    color: #f22b8b;
+}
+
+.box {
+    position: relative;
+    text-align: left;
+    padding: 5px 19px;
+    background-color: #333;
+    border-radius: 10px;
+
+}
+
+.box:hover {
+    transform: scale(1.04);
+    background-color: #444444;
+}
+
+.download-resume{    
+    margin-bottom: -70px;
+
+
+}
+
+.download-resume a button{
+    background-color: #ff007a;  
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: #121212;
+    text-decoration: none;
+    font-size: 1.0rem;
+    letter-spacing: 1pt;
+    transition: transform 0.3s;
+    outline: none;
+    border: 1px solid #ff007a;
+
+}
+
+.download-resume a button:hover{
+    background-color:  #f22b8b;
+    transform: scale(1.04);
+}
+
+/*  **********************Contact Section*********************** */
+
+#contact>div {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 40px;
+    background-color: #000000;
+    border-radius: 5px;
+}
+
+.contact-info {
+    padding: 40px;
+    background-color: #333;
+    width: 380px;
+    border-radius: 10px;
+    
+}
+
+.contact-info .intro-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ff007a;
+}
+
+.contact-info .description {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.contact-info .info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-info .info-item .icon {
+    margin-right: 10px;
+}
+
+.contact-info .social-icons {
+    display: flex;
+    margin-top: 20px;
+}
+
+.contact-info .social-icons img {
+    width: 19px;
+    height: 19px;
+    filter: invert();
+}
+
+.contact-info .social-icons .icon {
+    margin-right: 10px;
+    cursor: pointer;
+    transition: filter 0.3s ease;
+}
+
+.contact-info .info-item .text a{
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.contact-info .info-item .text a:hover{
+    color: #ff007a;
+    cursor: pointer;
+}
+.contact-info .social-icons .icon:hover {
+    filter: invert(37%) sepia(88%) saturate(7495%) hue-rotate(311deg) brightness(102%) contrast(101%);
+
+}
+
+.contact-form-container {
+    padding: 40px;
+    background-color: #222;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.contact-form-container .title {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.contact-form-container .title span {
+    color: #e60073;
+}
+
+.contact-form-container .contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form-container .contact-form .input-row {
+    display: flex;
+    gap: 10px;
+
+}
+
+.contact-form-container .contact-form input[name="name"],
+.contact-form-container .contact-form input[type="email"] {
+    width: 48%;
+
+}
+
+.contact-form-container .contact-form input,
+.contact-form-container .contact-form textarea {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    flex: 1;
+
+}
+
+.contact-form-container .contact-form textarea {
+    resize: none;
+    height: 120px;
+}
+
+.contact-form-container .contact-form button {
+    background-color: #ff007a;
+    color: #222;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s;
+    transition: transform 0.3s;
+}
+
+.contact-form-container .contact-form button:hover {
+    background-color: #f22b8b;
+    transform: scale(1.04);
+    
+}
+
+/* ********************Footer Section **************** */
+
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    border-top: 1px solid #444444;
+    color: #aaaaaa;
+}
