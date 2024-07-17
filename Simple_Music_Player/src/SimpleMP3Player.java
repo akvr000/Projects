@@ -29,12 +29,12 @@ public class SimpleMP3Player {
     public SimpleMP3Player() {
         frame = new JFrame("Music Player -By Anjali");
         frame.setSize(400, 300); // Increased frame height
-        Image imageIcon = Toolkit.getDefaultToolkit().getImage("C:/Anjali Kumari/Projects/Simple_Music_Player/images/musical-note.png");
+        Image imageIcon = Toolkit.getDefaultToolkit().getImage("C:/Projects/Simple_Music_Player/images/musical-note.png");
         frame.setIconImage(imageIcon);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         // Load image
-        ImageIcon icon = new ImageIcon("C:/Anjali Kumari/Projects/Simple_Music_Player/images/Sound.png");
+        ImageIcon icon = new ImageIcon("C:/Projects/Simple_Music_Player/images/Sound.png");
         Image image = icon.getImage().getScaledInstance(100, 120, Image.SCALE_SMOOTH); // Set size
         ImageIcon scaledIcon = new ImageIcon(image);
         JLabel imageLabel = new JLabel(scaledIcon);

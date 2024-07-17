@@ -48,7 +48,7 @@ public class simple_notepad extends JFrame implements  ActionListener{
 
         /* ***************************  adding image icon ****************************** */
 
-        Image imageIcon = Toolkit.getDefaultToolkit().getImage("C:/Anjali Kumari/Projects/Simple_Notepad/images/notepad_logo.png");
+        Image imageIcon = Toolkit.getDefaultToolkit().getImage("C:/Projects/Simple_Notepad/images/notepad_logo.png");
         setIconImage(imageIcon);
 
         /* ****************************** creating JFrame ********************************** */
@@ -443,7 +443,7 @@ public class simple_notepad extends JFrame implements  ActionListener{
 
     private static void showAboutPopup(JFrame parentFrame) {
         JOptionPane.showMessageDialog(parentFrame,
-                "Simple Notepad Application\nVersion 1.0\nCreated by Anjali",
+                "Simple Notepad Application\nVersion 1.0\nCreated by Akvr000",
                 "About",
                 JOptionPane.INFORMATION_MESSAGE);
     }
