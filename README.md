@@ -3,7 +3,7 @@ Welcome to my GitHub repository! 😊 Here you'll find a curated collection of m
 
 ## Table of Contents
 1. [Arduino](#Arduino)
-2. [Portfolio](#My_Portfolio)
+2. [Portfolio](#MyPortfolio)
 3. [SimpleNotepad](#MSimpleNotepad)
 4. [SimpleMP3Player](#SimpleMP3Player)
    
@@ -29,7 +29,7 @@ Arduino is an open-source electronics platform combining a microcontroller and a
 1. Connect the Arduino to the required sensors and relays.
 2. Use the smartphone app to control the appliances.
 
-## My Portfolio
+## MyPortfolio
 
 Welcome to my portfolio! This project showcases my skills, projects, and professional background. You can explore various sections such as Home, About, Skills, Projects, Resume, and Contact.
 
