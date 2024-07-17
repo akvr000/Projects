@@ -2,10 +2,10 @@
 Welcome to my GitHub repository! 😊 Here you'll find a curated collection of my projects, each showcasing a range of skills and technologies.
 
 ## Table of Contents
-1. [Arduino](##Arduino)
-2. [Portfolio](##MyPortfolio)
-3. [SimpleNotepad](##MSimpleNotepad)
-4. [SimpleMP3Player](##SimpleMP3Player)
+1. [Arduino](#Arduino)
+2. [Portfolio](#MyPortfolio)
+3. [SimpleNotepad](#MSimpleNotepad)
+4. [SimpleMP3Player](#SimpleMP3Player)
    
 ## Arduino
 Arduino is an open-source electronics platform combining a microcontroller and a development environment for interactive projects. It reads inputs and converts them to outputs, supported by extensive community resources.
