@@ -21,7 +21,7 @@ Arduino is an open-source electronics platform combining a microcontroller and a
   
 ### Getting Started
 1. Install the Arduino IDE from [here](https://www.arduino.cc/en/software).
-2. Clone this repository: `git clone https://github.com/yourusername/smart-home-automation.git`
+2. Clone this repository: `git clone https://github.com/akvr000/Projects.git`
 3. Open the project in Arduino IDE.
 4. Upload the code to your Arduino board.
 
@@ -73,7 +73,7 @@ SimpleNotepad is a basic text editor application. It allows users to create, ope
 - User Convenience: Shortcut keys and recent files option for quick access
 
 ### Getting Started
-1. Clone this repository: `git clone https://github.com/akvr000/simple-notepad.git`
+1. Clone this repository: `git clone https://github.com/akvr000/Projects.git`
 2. Open the project in your preferred IDE.
 3. Run the application.
    
@@ -94,7 +94,7 @@ SimpleMP3Player is a simple MP3 player application. It provides basic controls t
 - Stop playback
 
 ### Getting Started
-1. Clone this repository: `git clone https://github.com/yourusername/simple-mp3-player.git`
+1. Clone this repository: `git clone https://github.com/akvr000/Projects.git`
 2. Open the project in your preferred IDE.
 3. Run the application.
 
