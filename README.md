@@ -4,7 +4,7 @@ Welcome to my GitHub repository! 😊 Here you'll find a curated collection of m
 ## Table of Contents
 1. [Arduino](#Arduino)
 2. [Portfolio](#MyPortfolio)
-3. [SimpleNotepad](#MSimpleNotepad)
+3. [SimpleNotepad](#SimpleNotepad)
 4. [SimpleMP3Player](#SimpleMP3Player)
    
 ## Arduino
