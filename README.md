@@ -27,7 +27,7 @@ Arduino is an open-source electronics platform combining a microcontroller and a
 
 ### Usage
 1. Connect the Arduino to the required sensors and relays.
-2. Use the smartphone app to control the appliances.
+2. Check pulse rate and have more fun with flame and social distance detector .
 
 ## MyPortfolio
 
@@ -45,16 +45,16 @@ Welcome to my portfolio! This project showcases my skills, projects, and profess
 The home page gives an overview of my portfolio and serves as a gateway to all other sections. It highlights my professional journey and current focus.
 
 ### About
-In the about section, you can learn more about me, my background, education, and interests. This section provides a deeper insight into who I am and what motivates me.
+In the about section, you can learn more about me, my background, education, and languages. This section provides a deeper insight into who I am.
 
 ### Skills
-The skills section lists the programming languages, tools, and technologies I am proficient in. It includes details on my expertise and experience level with each skill.
+The skills section lists the programming languages, tools, and technologies I am proficient in.
 
 ### Projects
 The projects section showcases a selection of my work. Each project includes a description, technologies used, and links to the project if applicable. This section demonstrates my practical experience and accomplishments.
 
 ### Resume
-In the resume section, you can view and download my resume. It outlines my professional experience, education, skills, and other relevant information.
+In the resume section, you can view and download my resume. It outlines my education, skills, related course work and other relevant information.
 
 ### Contact
 The contact section provides ways to get in touch with me. Feel free to reach out for collaborations, job opportunities, or any other inquiries.
@@ -76,6 +76,10 @@ SimpleNotepad is a basic text editor application. It allows users to create, ope
 1. Clone this repository: `git clone https://github.com/akvr000/simple-notepad.git`
 2. Open the project in your preferred IDE.
 3. Run the application.
+   
+### Usage
+1. Use the editor to type your notes.
+2. Save your notes to a file or load existing files. 
 
 ## SimpleMP3Player
 Language: Java (Swing)
@@ -97,10 +101,6 @@ SimpleMP3Player is a simple MP3 player application. It provides basic controls t
 ### Usage
 1. Load your MP3 files into the application.
 2. Use the controls to play, pause, resume or stop tracks.
-
-### Usage
-1. Use the editor to type your notes.
-2. Save your notes to a file or load existing files. 
 
 ### License
 This project is licensed under the MIT License.
