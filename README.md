@@ -106,5 +106,4 @@ SimpleMP3Player is a simple MP3 player application. It provides basic controls t
 This project is licensed under the MIT License.
 
 ### Contact
-- Name: Akvr
 - GitHub: https://github.com/akvr000
