@@ -107,5 +107,4 @@ This project is licensed under the MIT License.
 
 ### Contact
 - Name: Akvr
-- Email: akvr000@gmail.com
 - GitHub: https://github.com/akvr000
