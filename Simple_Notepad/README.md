@@ -24,6 +24,5 @@ SimpleNotepad is a basic text editor application. It allows users to create, ope
 This project is licensed under the MIT License.
 
 ### Contact
-- Name: Anjali
-- Email: akvr000@gmail.com
+- Linkedin: www.linkedin.com/in/akvr000
 - GitHub: https://github.com/akvr000
