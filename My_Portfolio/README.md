@@ -32,6 +32,6 @@ The contact section provides ways to get in touch with me. Feel free to reach ou
 This project is licensed under the MIT License.
 
 ### Contact
-- Linkedin : https://linkedin/in/akvr000
+- Linkedin: www.linkedin.com/in/akvr000
 - GitHub: https://github.com/akvr000
 
